@@ -47,35 +47,8 @@ This repository includes the following material specifications:
 
 Each design uses a different visual concept according to its intended application and material specifications.
 
-## 3. Repository Structure
 
-industrial-laser-cutting-designs/
-│
-├── README.md
-│
-├── 01_Mild_Steel/
-│   ├── CAD/
-│   ├── PDF_Preview/
-│   └── Manufacturing_Parameters/
-│
-├── 02_Precoated_Steel/
-│   ├── CAD/
-│   ├── PDF_Preview/
-│   └── Manufacturing_Parameters/
-│
-├── 03_Aluminium/
-│   ├── CAD/
-│   ├── PDF_Preview/
-│   └── Manufacturing_Parameters/
-│
-├── 04_Reference_Documents/
-│
-├── 05_Previous_Samples/
-│
-└── LICENSE
-
-
-## 4. Tools and Technologies
+## 3. Tools and Technologies
 
 The following tools and file formats are used throughout the project:
 
@@ -85,7 +58,7 @@ The following tools and file formats are used throughout the project:
 - **CAM Software:** Preparing cutting paths, kerf compensation, lead-ins, and machine-specific toolpaths.
 - **CNC Laser Cutting:** Intended manufacturing process for the designed sheet-metal profiles.
 
-## 5. CAD Drawing Organization
+## 4. CAD Drawing Organization
 
 The DXF drawings use separate layers to distinguish different drawing elements.
 
@@ -97,7 +70,7 @@ The DXF drawings use separate layers to distinguish different drawing elements.
 
 Layer separation helps simplify drawing inspection and CAM preparation.
 
-## 6. Manufacturing Parameters
+## 5. Manufacturing Parameters
 
 Each material-specific folder is intended to contain manufacturing reference notes covering the following considerations:
 
@@ -116,7 +89,7 @@ Each material-specific folder is intended to contain manufacturing reference not
 
 The provided parameter notes are educational references and should not be treated as validated production settings.
 
-## 7. How to Use the Drawings
+## 6. How to Use the Drawings
 
 1. Clone or download the repository.
 2. Navigate to the required material folder.
@@ -129,7 +102,7 @@ The provided parameter notes are educational references and should not be treate
 9. Apply machine-specific kerf compensation, lead-ins, lead-outs, and cutting parameters.
 10. Verify the final toolpath before actual production.
 
-## 8. Project Objectives
+## 7. Project Objectives
 
 This project is intended to develop practical knowledge and understanding of:
 
@@ -141,7 +114,7 @@ This project is intended to develop practical knowledge and understanding of:
 - Material-specific manufacturing considerations.
 - Industrial design documentation.
 
-## 9. Disclaimer
+## 8. Disclaimer
 
 All drawings and documents included in this repository are sample references created for educational purposes, design practice, and manufacturing workflow demonstrations.
 
@@ -151,7 +124,7 @@ Before actual fabrication, verify all dimensions, minimum material web widths, s
 
 Precoated materials may release hazardous fumes during laser processing. Refer to the material safety data and ensure appropriate extraction and machine safety measures.
 
-## 10. Contributions
+## 9. Contributions
 
 Suggestions, improvements, and additional sample designs are welcome.
 
